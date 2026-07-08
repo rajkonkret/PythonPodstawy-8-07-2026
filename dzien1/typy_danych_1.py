@@ -15,3 +15,10 @@ print(2026 // 47)  # 43, częśc całkowita dzielnia
 print(2026 - (2026 // 47) * 47)  # reszta z dzielenia 5
 
 print(rok % wiek)  # modulo, reszta z dzielenia 5
+
+print(wiek ** rok)  # potegowanie
+
+print(len(str(wiek ** rok)))  # długość 3388
+print(len(str(wiek ** rok ** 2)))  # długość 3388
+# ValueError: Exceeds the limit (4300 digits) for integer string conversion;
+# use sys.set_int_max_str_digits() to increase the limit
