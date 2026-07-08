@@ -39,3 +39,5 @@ print(f"{user:<10}")  # "Tomek     "
 print(f"{user:>15}")  # "          Tomek"
 print(f"{user:^15}")  # "     Tomek     "
 print(f"{user:.^15}")  # ".....Tomek....."
+
+print(f"{user:<10} {wiek:^5}")  # "Tomek       39  "
