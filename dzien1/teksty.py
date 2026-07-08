@@ -17,3 +17,5 @@ print(tekst_upper)  # WITAJ ŚWIECIE
 
 print(tekst.lower())  # witaj świecie
 print(tekst.capitalize())  # Witaj świecie
+
+# title()
