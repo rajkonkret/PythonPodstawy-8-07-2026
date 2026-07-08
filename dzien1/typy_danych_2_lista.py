@@ -114,3 +114,11 @@ print(lista.pop())  # Karolina - usunie ostatni
 
 # sprawdzenie indexu elementu
 print(lista.index("Sylwia"))  # indeks numer 2
+
+a = 1
+b = 3
+a = b
+print(f"{a=}, {b=}")  # a=3, b=3
+
+b = 9
+print(f"{a=}, {b=}")  # a=3, b=9
