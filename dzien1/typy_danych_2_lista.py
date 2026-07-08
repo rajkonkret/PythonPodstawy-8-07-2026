@@ -122,3 +122,21 @@ print(f"{a=}, {b=}")  # a=3, b=3
 
 b = 9
 print(f"{a=}, {b=}")  # a=3, b=9
+
+lista2 = lista  # kopia adresu listy
+
+lista_copy = lista.copy()  # kopia elementów listy
+
+print(lista2)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna']
+print(lista)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna']
+print(lista_copy)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna']
+
+lista.clear()  # kasuje wszystkie leemnty z listy
+print(lista2)  # []
+print(lista)  # []
+print(lista_copy)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna']
+
+# id() - adres elementu
+print(id(lista2))  # 1877624541120
+print(id(lista))  # 1877624541120
+print(id(lista_copy))  # 1877626698176
