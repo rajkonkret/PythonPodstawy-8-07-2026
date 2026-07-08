@@ -34,3 +34,21 @@ print(tekst.count("w"))  # występuje 1 raz
 print(tekst.lower().count("w"))  # występuje 2 razy
 
 print(tekst.count("j", 0, 4))  # 0 razy, z prawej strony zbiór otwarty, 0123
+
+print(tekst.removeprefix("Witaj"))  # " Świecie"
+print(tekst.removesuffix("Świecie"))  # "Witaj "
+
+# strip() - usuwanie bialych znaków , wiodocąch, konczących spacji itp
+print(tekst.removesuffix("Świecie").strip())  # "Witaj"
+# uzycie slice
+print(tekst[3:].removesuffix("Świecie").strip())  # "aj"
+
+encode_s = tekst.encode('utf-8')
+print(encode_s)
+print(type(encode_s))
+# b'Witaj \xc5\x9awiecie'
+# <class 'bytes'> typ bajtowy
+#  \xc5\x9a literka Ś w kodzie unicode
+# \x - dane w sytemie szesnastkowym
+print(encode_s.decode('utf-8'))  # Witaj Świecie
+
