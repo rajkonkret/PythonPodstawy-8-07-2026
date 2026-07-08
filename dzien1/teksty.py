@@ -32,3 +32,5 @@ print(tekst.index("e"))  # index 9, pierwszy z lewej
 
 print(tekst.count("w"))  # występuje 1 raz
 print(tekst.lower().count("w"))  # występuje 2 razy
+
+print(tekst.count("j", 0, 4))  # 0 razy, z prawej strony zbiór otwarty, 0123
