@@ -54,4 +54,14 @@ print(encode_s.decode('utf-8'))  # Witaj Świecie
 
 imie = "Radek"
 
-print(len(imie)) # długosc danych, 5
+print(len(imie))  # długosc danych, 5
+
+# Mam na imię ...
+print("Mam na imię" + imie)  # Mam na imięRadek
+print("Mam na imię", imie)  # Mam na imię Radek
+
+# sep
+# string inserted between values, default a space.
+# end
+# string appended after the last value, default a newline.
+print("Mam na imię", imie, sep="ooo")  # Mam na imięoooRadek
