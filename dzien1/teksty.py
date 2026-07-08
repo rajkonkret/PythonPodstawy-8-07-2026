@@ -52,3 +52,6 @@ print(type(encode_s))
 # \x - dane w sytemie szesnastkowym
 print(encode_s.decode('utf-8'))  # Witaj Świecie
 
+imie = "Radek"
+
+print(len(imie)) # długosc danych, 5
