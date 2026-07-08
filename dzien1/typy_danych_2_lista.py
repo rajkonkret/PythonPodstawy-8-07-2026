@@ -22,3 +22,4 @@ lista.append("Karolina")
 print(lista)
 # ['Radek', 'Tomek', 'Marek', 'Zenek', 'Anna', 'Karolina']
 
+print(len(lista))  # długosc 6
