@@ -35,4 +35,7 @@ print(f"Używamy wersji pythona {wersja:.0f}")  # Używamy wersji pythona 4
 
 print(wersja)  # 3.90001 nie zostałą zmieniona
 
-
+print(f"{user:<10}")  # "Tomek     "
+print(f"{user:>15}")  # "          Tomek"
+print(f"{user:^15}")  # "     Tomek     "
+print(f"{user:.^15}")  # ".....Tomek....."
