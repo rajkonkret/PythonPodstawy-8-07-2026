@@ -23,3 +23,13 @@ print(lista)
 # ['Radek', 'Tomek', 'Marek', 'Zenek', 'Anna', 'Karolina']
 
 print(len(lista))  # długosc 6
+
+# ['Radek', 'Tomek', 'Marek', 'Zenek', 'Anna', 'Karolina']
+#     0        1        2        3        4         5
+
+print(lista[1])
+print(lista[3])
+print(lista[5])
+# Tomek
+# Zenek
+# Karolina
