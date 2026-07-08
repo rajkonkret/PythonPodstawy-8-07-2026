@@ -37,3 +37,16 @@ print(sys.int_info)
 # sys.int_info(bits_per_digit=30,
 # sizeof_digit=4, default_max_str_digits=4300,
 # str_digits_check_threshold=640)
+
+
+# zmienna - pudełko na dane
+# snake_case
+
+# typowanie dynamiczne
+name = "Radek"
+print(name)  # Radek
+print(type(name))  # <class 'str'>
+
+name = 67
+print(name)  # 67
+print(type(name))  # <class 'int'>
