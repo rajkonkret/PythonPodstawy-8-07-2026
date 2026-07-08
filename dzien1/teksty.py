@@ -65,3 +65,7 @@ print("Mam na imię", imie)  # Mam na imię Radek
 # end
 # string appended after the last value, default a newline.
 print("Mam na imię", imie, sep="ooo")  # Mam na imięoooRadek
+
+# f-string, wstrzykiwanie zmiennej do tekstu
+tekst_format = f'Mam na imię {imie}.'
+print(tekst_format)  # Mam na imię Radek.
