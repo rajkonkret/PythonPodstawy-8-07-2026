@@ -111,3 +111,6 @@ print(lista.pop(-1))  # Radek
 
 print(lista)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna', 'Karolina']
 print(lista.pop())  # Karolina - usunie ostatni
+
+# sprawdzenie indexu elementu
+print(lista.index("Sylwia"))  # indeks numer 2
