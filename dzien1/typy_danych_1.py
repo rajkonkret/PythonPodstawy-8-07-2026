@@ -94,3 +94,15 @@ print(40 * "-")
 print(not True)
 # ----------------------------------------
 # False
+
+a = 6
+b = 8
+
+print(f"Porównanie {a} > {b} = {a > b}")  # Porównanie 6 > 8 = False
+print(f"Porównanie {a} < {b} = {a < b}")  # Porównanie 6 < 8 = True
+print(f"Porównanie {a} >= {b} = {a >= b}")  # Porównanie 6 >= 8 = False
+print(f"Porównanie {a} <= {b} = {a <= b}")  # Porównanie 6 <= 8 = True
+print(f"Porównanie {a <= b = }")  # Porównanie a <= b = True
+
+print(f"Porównanie {a} == {b} = {a == b}")  # Porównanie 6 == 8 = False, czy równe
+print(f"Porównanie {a} != {b} = {a != b}")  # Porównanie 6 != 8 = True, czy różne
