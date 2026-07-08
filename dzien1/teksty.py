@@ -84,3 +84,10 @@ starszy = "Witaj %s"  # %s - string
 print(starszy % imie)  # Witaj Radek
 
 print("Witaj {}!".format("Radek"))  # Witaj Radek!
+print(f"Witaj {"Radek"}!")  # Witaj Radek!
+
+print("""
+    Witaj
+Radek""")
+# "    Witaj
+# Radek"
