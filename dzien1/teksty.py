@@ -79,3 +79,8 @@ print(tekst_format)
 #  i lubię pythona"
 print(f"Radek \\n")  # Radek \n
 print(f'Radek \' \'')  # Radek ' '
+
+starszy = "Witaj %s"  # %s - string
+print(starszy % imie)  # Witaj Radek
+
+print("Witaj {}!".format("Radek"))  # Witaj Radek!
