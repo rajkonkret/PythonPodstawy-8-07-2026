@@ -84,3 +84,30 @@ tablice = [[1, 2], [3, 4]]
 # numpy - tablice/macierze, pandas
 
 print(lista)  # ['Radek', 'Tomek', 'Marek', 'Zenek', 'Anna', 'Karolina']
+
+# podmiana elementu
+lista[2] = "Sylwia"
+print(lista)  # ['Radek', 'Tomek', 'Sylwia', 'Zenek', 'Anna', 'Karolina']
+
+# dopisanie na konkretnym indexie
+lista.insert(1, "Kamil")
+print(lista)
+# ['Radek', 'Kamil', 'Tomek', 'Sylwia', 'Zenek', 'Anna', 'Karolina']
+
+lista.append("Radek")
+print(lista)
+# ['Radek', 'Kamil', 'Tomek', 'Sylwia', 'Zenek', 'Anna', 'Karolina', 'Radek']
+
+# usunięcie z listy, pierwszy z lewej
+lista.remove("Radek")
+print(lista)
+# ['Kamil', 'Tomek', 'Sylwia', 'Zenek', 'Anna', 'Karolina', 'Radek']
+
+# usunięcie po indeksie
+print(lista.pop(3))  # Zenek
+print(lista)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna', 'Karolina', 'Radek']
+
+print(lista.pop(-1))  # Radek
+
+print(lista)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna', 'Karolina']
+print(lista.pop())  # Karolina - usunie ostatni
