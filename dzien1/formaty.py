@@ -47,3 +47,8 @@ print(f"Nasza duża liczba: {liczba:,}")  # Nasza duża liczba: 9,087,654,567,89
 print(f"Nasza duża liczba: {liczba:_}")  # Nasza duża liczba: 9_087_654_567_891_234_321
 print(f"Nasza duża liczba: {liczba:_}".replace("_", "."))  # Nasza duża liczba: 9.087.654.567.891.234.321
 print(f"Nasza duża liczba: {liczba:_}".replace("_", " "))  # Nasza duża liczba: 9 087 654 567 891 234 321
+
+liczba = 150000000000000
+liczba = 150_000_000_000_000
+print(type(liczba))  # <class 'int'>
+print(liczba)  # 150000000000000
