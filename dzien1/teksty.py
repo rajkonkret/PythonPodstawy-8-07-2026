@@ -69,3 +69,13 @@ print("Mam na imię", imie, sep="ooo")  # Mam na imięoooRadek
 # f-string, wstrzykiwanie zmiennej do tekstu
 tekst_format = f'Mam na imię {imie}.'
 print(tekst_format)  # Mam na imię Radek.
+
+tekst_format = f'\tMam na imię {imie}.\n i lubię pythona.\b'
+print(tekst_format)
+# \t - tab
+# \n - nowa linia
+# \b - backspace
+# "	  Mam na imię Radek.
+#  i lubię pythona"
+print(f"Radek \\n")  # Radek \n
+print(f'Radek \' \'')  # Radek ' '
