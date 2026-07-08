@@ -1,4 +1,5 @@
 # pep8
+import sys
 
 print('Hello World')
 print()
@@ -31,3 +32,8 @@ print(int("39") + int(40))  # 79
 print(str(39) + str("14"))  # 3914
 
 print(5 * "4")  # 44444
+
+print(sys.int_info)
+# sys.int_info(bits_per_digit=30,
+# sizeof_digit=4, default_max_str_digits=4300,
+# str_digits_check_threshold=640)
