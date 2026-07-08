@@ -33,3 +33,18 @@ print(lista[5])
 # Tomek
 # Zenek
 # Karolina
+
+# print(lista[10])  # IndexError: list index out of range
+
+# ostatni element
+print(lista[5])  # Karolina
+print(lista[len(lista) - 1])  # Karolina
+print(lista[-1])  # Karolina
+print(lista[-2])  # Anna
+print(lista[-3])  # Zenek
+
+# ['Radek', 'Tomek', 'Marek', 'Zenek', 'Anna', 'Karolina']
+#     0        1        2        3        4         5
+#     -6       -5       -4       -3      -2        -1
+
+
