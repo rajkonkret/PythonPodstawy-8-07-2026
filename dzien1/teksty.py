@@ -91,3 +91,8 @@ print("""
 Radek""")
 # "    Witaj
 # Radek"
+
+
+"""
+Komentarz
+wielolinijkowy (docstring)"""
