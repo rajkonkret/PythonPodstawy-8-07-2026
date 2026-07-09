@@ -27,4 +27,12 @@ print(tupla_imiona.count("Zenek"))  # występuje 1 raz
 
 print(len(tupla_imiona))  # liczba elementów: 4
 
+tup = 1, 2
 
+# a  -  pierwszy
+# b = drugi element
+
+a = tup[0]
+b = tup[1]
+
+print(a, b)
