@@ -46,3 +46,30 @@ print(lista3)  # [0, 2, 4, 6, 8]
 # list comprehensions
 lista3 = [j for j in range(10) if j % 2 == 0]
 print(lista3)  # [0, 2, 4, 6, 8]
+
+for i in range(len(lista3)):
+    print(lista3[i])
+    # 0
+    # 2
+    # 4
+    # 6
+    # 8
+
+for c in lista3:  # podstawi kolejne elemnty z listy
+    print(c)
+# 0
+# 2
+# 4
+# 6
+# 8
+
+for c in lista3:
+    if c > 4:
+        print(c, "wieksza niz 4")
+    elif c == 4:
+        print("Rowne 4")
+    else:
+        print("Mniejsze niz 4")
+    print(c)  # za kazdym przejsciem pętli
+
+print("Po zakończeniu pętli")
