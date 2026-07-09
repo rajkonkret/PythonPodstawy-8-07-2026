@@ -14,3 +14,5 @@ match lang.strip().casefold():
         print("Nie znam takiego języka")
 
 print(lista)
+# Podaj znany Ci język programowania:java
+# ['Znam Jave']
