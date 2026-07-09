@@ -62,3 +62,11 @@ print(name1.lower() == name2.lower())  # False
   For example, the German lowercase letter 'ß' is equivalent to "ss".
  Since it is already lowercase, lower() would do nothing to 'ß'; casefold() converts it to "ss"."""
 print(name1.casefold() == name2.casefold())  # True
+
+dictionary.update({"date": '12-12-2040'})
+print(dictionary)
+# {'imie': ['Radek', 'Tomek', 'Magda'], 'wiek': 51, 'date': '12-12-2040'}
+
+dict_small = {'x': 20}
+dict_small.update([("y", 3), ("z", 7)])
+print(dict_small)  # {'x': 20, 'y': 3, 'z': 7}
