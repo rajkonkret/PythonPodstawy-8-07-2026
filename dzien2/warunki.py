@@ -62,3 +62,8 @@ if n > 3:
 if (n := len(a)) > 3:
     print(f"Długość wynosi: {n}, więcej niż 3")
     # Długość wynosi: 5, więcej niż 3
+
+# pobrac zarobki
+# jesli zarobki mniejsze niz 10000 -> podatek 0
+# dla pozostałych podaek 90% (0.9)
+# wypisac obliczony podatek
