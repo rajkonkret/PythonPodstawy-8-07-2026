@@ -44,5 +44,9 @@ print(dictionary['imie'][1])  # Tomek
 print(dictionary['imie'][1].lower())  # tomek
 print(dictionary['imie'][::-1])  # ['Magda', 'Tomek', 'Radek']
 
+# print(dictionary['Imie'])  # KeyError: 'Imie'
+
+print(dictionary.get("Imie"))  # None
+print(dictionary.get("Imie", "default"))  # default
 
 
