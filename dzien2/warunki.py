@@ -127,3 +127,17 @@ print("Punkty:", punkty)
 # spam *= 1    spam = spam * 1
 # spam /= 1    spam = spam / 1
 # spam %= 1    spam = spam % 1
+
+odp = input("Podaj powierzchnię  Polski w tys km2")  # str
+
+if odp.strip().casefold() == '312'.strip().casefold():
+    print("Odpowiedź prawidłowa")
+    # punkty = punkty + 1
+    punkty += 1
+else:
+    print("Idż się naucz!")
+
+print("Punkty:", punkty)
+# Podaj powierzchnię  Polski w tys km2312
+# Odpowiedź prawidłowa
+# Punkty: 2
