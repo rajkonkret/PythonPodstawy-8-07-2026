@@ -26,7 +26,7 @@ if odp:
 
 print("Dalsza częśc programu")
 
-odp = "Radek"
+odp = "Radek"  # True
 
 if odp:
     print("Dane zostały wczytane")
@@ -36,9 +36,11 @@ if odp == "Radek":
     print("Jestem Radek")  # Jestem Radek
 
 odp = 0
-if odp:
+print(bool(0))  # False odp = False
+
+if odp:  # False
     print("Działa")
-else:
+else:  # wartosc domyslna,
     print("Zero -> False")  # Zero -> False
 
 a = "Radek"
