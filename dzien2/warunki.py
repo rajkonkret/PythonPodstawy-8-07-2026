@@ -71,8 +71,11 @@ if (n := len(a)) > 3:
 zarobki = int(input("Podaj zrobki: "))
 # 1_000_000
 podatek = 0
+# pierwszy spełbniony -> koniec sprawdzania
 if zarobki < 10_000:
     podatek = 0
+elif zarobki < 100_000:
+    podatek = 0.4
 else:
     podatek = 0.9
 
