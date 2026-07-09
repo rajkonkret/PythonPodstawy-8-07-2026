@@ -73,5 +73,9 @@ print(dict_small)  # {'x': 20, 'y': 3, 'z': 7}
 
 # input() - mozliwosc wprowadzania danych
 
-tekst = input("Podaj imię:")
-print(tekst)
+# tekst = input("Podaj imię:")
+# print(tekst)
+# Podaj imię:radek
+# radek
+
+# napisac aplikacje kalkulator
