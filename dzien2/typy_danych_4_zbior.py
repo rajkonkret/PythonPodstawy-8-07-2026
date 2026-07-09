@@ -58,3 +58,20 @@ print(zbior_2.difference(zbior))  # {99, 12.34, 14, 52, 667, 62}
 zbior.update(zbior_2)
 print(zbior)
 # {99, 777, 11, 44, 12.34, 14, 18, 52, 22, 25, 667, 62}
+
+zbior.difference_update(zbior_2)
+print(zbior)  # {22, 777, 25}
+
+krotka = tuple(zbior)
+print(krotka)  # (22, 777, 25)
+
+lista = list(zbior)
+print(lista)  # [22, 777, 25]
+
+# in - sprawdzanie czy element istnieje w kolekcji
+
+# zbior jest hashowany, najszybsze wyszukiwanie
+print(667 in zbior)  # False
+print(777 in lista)  # True
+print(667 in krotka)  # False
+print(6677 in zbior)  # False
