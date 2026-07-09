@@ -37,3 +37,6 @@ print(zbior.pop())  # 33
 zmienna = zbior.pop()
 print(f"Zmienna: {zmienna}")  # Zmienna: 66
 print("Zmmienna:", zmienna)  # Zmmienna: 66
+
+# operacje na zbiorach
+zbior_2 = {667, 11, 14, 44, 12.34, 18, 52, 667, 62, 99}
