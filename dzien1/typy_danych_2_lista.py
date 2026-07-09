@@ -156,3 +156,13 @@ print(liczby)  # [12.34, 34, 54, 567, 999, 999, 'A']
 print(lista_copy)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna']
 lista_copy.sort()
 print(lista_copy)  # ['Anna', 'Kamil', 'Sylwia', 'Tomek']
+
+lista_copy.sort(reverse=True)
+print(lista_copy)  # ['Tomek', 'Sylwia', 'Kamil', 'Anna']
+
+lista_copy.append("Tomek")
+print(lista_copy)  # ['Tomek', 'Sylwia', 'Kamil', 'Anna', 'Tomek']
+
+lista_copy.reverse()  # odwracanie bez sortowania
+print(lista_copy)
+# ['Tomek', 'Anna', 'Kamil', 'Sylwia', 'Tomek']
