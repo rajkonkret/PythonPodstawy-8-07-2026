@@ -149,8 +149,14 @@ account_active = True
 if login == "uczen":
     password = input("Podaj hasło:")
     if password == "1234":
-        print("Zalogowano poprawnie")
+        if account_active:
+            print("Zalogowano poprawnie")
+        else:
+            print("konto nieaktywne!")
     else:
         print("Błędna hasło!!!")
 else:
     print("Nie ma takiego użytkownika")
+# Podaj login:uczen
+# Podaj hasło:1234
+# Zalogowano poprawnie
