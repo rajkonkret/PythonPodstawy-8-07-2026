@@ -106,3 +106,24 @@ print(f"Rabat wynosi: {rabat}")  # Rabat wynosi: 25
 # trzy patania
 # punktacja
 # strip(), casefold()
+
+odp = input("Podaj stolicę Polski")
+punkty = 0
+
+if odp.strip().casefold() == 'Warszawa'.strip().casefold():
+    print("Odpowiedź prawidłowa")
+    # punkty = punkty + 1
+    punkty += 1
+else:
+    print("Idż się naucz!")
+
+print("Punkty:", punkty)
+# Podaj stolicę PolskiWarszawa
+# Odpowiedź prawidłowa
+# Punkty: 1
+
+# spam += 1    spam = spam + 1
+# spam -= 1    spam = spam - 1
+# spam *= 1    spam = spam * 1
+# spam /= 1    spam = spam / 1
+# spam %= 1    spam = spam % 1
