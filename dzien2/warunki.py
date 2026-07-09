@@ -152,7 +152,7 @@ if login == "uczen":
         if account_active:
             print("Zalogowano poprawnie")
         else:
-            print("konto nieaktywne!")
+            print("Konto nieaktywne!")
     else:
         print("Błędna hasło!!!")
 else:
