@@ -140,3 +140,9 @@ print(lista_copy)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna']
 print(id(lista2))  # 1877624541120
 print(id(lista))  # 1877624541120
 print(id(lista_copy))  # 1877626698176
+
+liczby = [54, 999, 12.34, 34, 567, 999]
+print(liczby)  # [54, 999, 12.34, 34, 567, 999]
+
+liczby.sort()
+print(liczby)  # [12.34, 34, 54, 567, 999, 999]
