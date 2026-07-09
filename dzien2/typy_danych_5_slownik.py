@@ -87,3 +87,5 @@ print(int(a) + float(b))
 # Podaj liczbę a:1
 # Podaj liczbę b:4
 # 5.0
+
+# napisac apliakcję słownik pol-ang
