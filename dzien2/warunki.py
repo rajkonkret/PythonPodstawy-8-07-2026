@@ -90,3 +90,14 @@ if (n := len(a)) > 3:
 # podatek 0.2 dla dochodu od 10000 do 39999
 # Podaj zrobki: 78000
 # Podatek wynosi: 31200.0 pln.
+
+sum_zam = 150
+if sum_zam > 100:
+    rabat = 25
+else:
+    rabat = 0
+
+print(f"Rabat wynosi: {rabat}")  # Rabat wynosi: 25
+
+rabat = 25 if sum_zam > 100 else 0
+print(f"Rabat wynosi: {rabat}")  # Rabat wynosi: 25
