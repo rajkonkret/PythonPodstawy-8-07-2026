@@ -72,6 +72,7 @@ zarobki = int(input("Podaj zrobki: "))
 # 1_000_000
 podatek = 0
 # pierwszy spełbniony -> koniec sprawdzania
+# kolejnosc ma znaczenie
 if zarobki < 10_000:
     podatek = 0
 elif zarobki < 100_000:
@@ -80,3 +81,6 @@ else:
     podatek = 0.9
 
 print(f"Podatek wynosi: {zarobki * podatek} pln.")
+# Podaj zrobki: 15000
+# Podatek wynosi: 6000.0 pln.
+#
