@@ -70,3 +70,8 @@ print(dictionary)
 dict_small = {'x': 20}
 dict_small.update([("y", 3), ("z", 7)])
 print(dict_small)  # {'x': 20, 'y': 3, 'z': 7}
+
+# input() - mozliwosc wprowadzania danych
+
+tekst = input("Podaj imię:")
+print(tekst)
