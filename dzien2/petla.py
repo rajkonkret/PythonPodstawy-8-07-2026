@@ -73,3 +73,9 @@ for c in lista3:
     print(c)  # za kazdym przejsciem pętli
 
 print("Po zakończeniu pętli")
+
+for i in range(-10, 0):
+    print(i)
+
+for i in range(10, 0, -2):  # (start, stop, krok)
+    print(i)
