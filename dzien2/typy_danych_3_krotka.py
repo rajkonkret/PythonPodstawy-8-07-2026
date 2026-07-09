@@ -35,4 +35,28 @@ tup = 1, 2
 a = tup[0]
 b = tup[1]
 
-print(a, b)
+# rozpakowanie krotki
+print(a, b)  # 1 2
+
+a, b = tup
+print(a, b)  # 1 2
+
+# zamiana wartosci zmiennych miejscami
+a, b = b, a
+print(a, b)  # 2 1
+
+print(tupla_imiona)
+# ('Zenek', 'Tomek', 'Marek', 'Ania')
+
+# name1, name2,
+# name1, name2, name3 = tupla_imiona
+# ValueError: too many values to unpack (expected 3, got 4)
+
+name1, name2, *name3 = tupla_imiona
+print(name1, name2, name3)  # Zenek Tomek ['Marek', 'Ania']
+
+name1, *name2, name3 = tupla_imiona
+print(name1, name2, name3)  # Zenek ['Tomek', 'Marek'] Ania
+
+*name1, name2, name3 = tupla_imiona
+print(name1, name2, name3)  # ['Zenek', 'Tomek'] Marek Ania
