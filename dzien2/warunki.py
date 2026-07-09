@@ -34,3 +34,9 @@ if odp:
 
 if odp == "Radek":
     print("Jestem Radek")  # Jestem Radek
+
+odp = 0
+if odp:
+    print("Działa")
+else:
+    print("Zero -> False")  # Zero -> False
