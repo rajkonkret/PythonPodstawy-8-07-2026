@@ -68,23 +68,23 @@ if (n := len(a)) > 3:
 # dla pozostałych podaek 90% (0.9)
 # wypisac obliczony podatek
 
-zarobki = int(input("Podaj zrobki: "))
-# 1_000_000
-podatek = 0
-# pierwszy spełbniony -> koniec sprawdzania
-# kolejnosc ma znaczenie
-if zarobki < 10_000:
-    podatek = 0
-# elif zarobki >= 10_000 and zarobki < 40_000:
-# elif 10_000 <= zarobki < 40_000:
-elif zarobki < 40_000:
-    podatek = 0.2
-elif zarobki < 100_000:
-    podatek = 0.4
-else:
-    podatek = 0.9
-
-print(f"Podatek wynosi: {zarobki * podatek} pln.")
+# zarobki = int(input("Podaj zrobki: "))
+# # 1_000_000
+# podatek = 0
+# # pierwszy spełbniony -> koniec sprawdzania
+# # kolejnosc ma znaczenie
+# if zarobki < 10_000:
+#     podatek = 0
+# # elif zarobki >= 10_000 and zarobki < 40_000:
+# # elif 10_000 <= zarobki < 40_000:
+# elif zarobki < 40_000:
+#     podatek = 0.2
+# elif zarobki < 100_000:
+#     podatek = 0.4
+# else:
+#     podatek = 0.9
+#
+# print(f"Podatek wynosi: {zarobki * podatek} pln.")
 # Podaj zrobki: 15000
 # Podatek wynosi: 6000.0 pln.
 # podatek 0.2 dla dochodu od 10000 do 39999
