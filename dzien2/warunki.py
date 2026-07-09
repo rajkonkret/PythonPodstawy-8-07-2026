@@ -67,5 +67,3 @@ if (n := len(a)) > 3:
 # jesli zarobki mniejsze niz 10000 -> podatek 0
 # dla pozostałych podaek 90% (0.9)
 # wypisac obliczony podatek
-
-
