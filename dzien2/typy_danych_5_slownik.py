@@ -79,3 +79,11 @@ print(dict_small)  # {'x': 20, 'y': 3, 'z': 7}
 # radek
 
 # napisac aplikacje kalkulator
+# input() zwraca str
+
+a = int(input("Podaj liczbę a:"))
+b = input("Podaj liczbę b:")
+print(int(a) + float(b))
+# Podaj liczbę a:1
+# Podaj liczbę b:4
+# 5.0
