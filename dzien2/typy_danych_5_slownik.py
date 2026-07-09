@@ -32,4 +32,17 @@ print(dictionary.items())
 dictionary['imie'] = "Tomek"
 print(dictionary)  # {'imie': 'Tomek', 'wiek': 51}
 
+dictionary['imie'] = ['Radek', 'Tomek', 'Magda']
+print(dictionary)  # {'imie': ['Radek', 'Tomek', 'Magda'], 'wiek': 51}
+
+# wypisywanie
+print(dictionary['wiek'])  # 51
+
+# wypisac Tomek
+print(dictionary['imie'])  # ['Radek', 'Tomek', 'Magda']
+print(dictionary['imie'][1])  # Tomek
+print(dictionary['imie'][1].lower())  # tomek
+print(dictionary['imie'][::-1])  # ['Magda', 'Tomek', 'Radek']
+
+
 
