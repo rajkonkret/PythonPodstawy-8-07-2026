@@ -89,3 +89,18 @@ print(int(a) + float(b))
 # 5.0
 
 # napisac apliakcję słownik pol-ang
+pol_ang = {'pies': 'dog', "kot": "cat", "dach": "roof"}
+print("Znam takie słowka:", pol_ang.keys())
+
+odp = input("Podaj słówko: ")
+
+print(f"""
+Prawidłowa odpowiedź dla: {odp}
+to: {pol_ang.get(odp.strip().casefold(), "nie mam w słowniku")}
+""")
+# 3.0
+# Znam takie słowka: dict_keys(['pies', 'kot', 'dach'])
+# Podaj słówko:   Kot
+#
+# Prawidłowa odpowiedź dla:   Kot
+# to: cat
