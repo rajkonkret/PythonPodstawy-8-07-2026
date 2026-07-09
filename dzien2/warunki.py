@@ -107,37 +107,50 @@ print(f"Rabat wynosi: {rabat}")  # Rabat wynosi: 25
 # punktacja
 # strip(), casefold()
 
-odp = input("Podaj stolicę Polski")
-punkty = 0
-
-if odp.strip().casefold() == 'Warszawa'.strip().casefold():
-    print("Odpowiedź prawidłowa")
-    # punkty = punkty + 1
-    punkty += 1
-else:
-    print("Idż się naucz!")
-
-print("Punkty:", punkty)
-# Podaj stolicę PolskiWarszawa
-# Odpowiedź prawidłowa
-# Punkty: 1
-
-# spam += 1    spam = spam + 1
-# spam -= 1    spam = spam - 1
-# spam *= 1    spam = spam * 1
-# spam /= 1    spam = spam / 1
-# spam %= 1    spam = spam % 1
-
-odp = input("Podaj powierzchnię  Polski w tys km2")  # str
-
-if odp.strip().casefold() == '312'.strip().casefold():
-    print("Odpowiedź prawidłowa")
-    # punkty = punkty + 1
-    punkty += 1
-else:
-    print("Idż się naucz!")
-
-print("Punkty:", punkty)
+# odp = input("Podaj stolicę Polski")
+# punkty = 0
+#
+# if odp.strip().casefold() == 'Warszawa'.strip().casefold():
+#     print("Odpowiedź prawidłowa")
+#     # punkty = punkty + 1
+#     punkty += 1
+# else:
+#     print("Idż się naucz!")
+#
+# print("Punkty:", punkty)
+# # Podaj stolicę PolskiWarszawa
+# # Odpowiedź prawidłowa
+# # Punkty: 1
+#
+# # spam += 1    spam = spam + 1
+# # spam -= 1    spam = spam - 1
+# # spam *= 1    spam = spam * 1
+# # spam /= 1    spam = spam / 1
+# # spam %= 1    spam = spam % 1
+#
+# odp = input("Podaj powierzchnię  Polski w tys km2")  # str
+#
+# if odp.strip().casefold() == '312'.strip().casefold():
+#     print("Odpowiedź prawidłowa")
+#     # punkty = punkty + 1
+#     punkty += 1
+# else:
+#     print("Idż się naucz!")
+#
+# print("Punkty:", punkty)
 # Podaj powierzchnię  Polski w tys km2312
 # Odpowiedź prawidłowa
 # Punkty: 2
+
+login = input("Podaj login:")
+
+account_active = True
+
+if login == "uczen":
+    password = input("Podaj hasło:")
+    if password == "1234":
+        print("Zalogowano poprawnie")
+    else:
+        print("Błędna hasło!!!")
+else:
+    print("Nie ma takiego użytkownika")
