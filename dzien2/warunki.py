@@ -40,3 +40,7 @@ if odp:
     print("Działa")
 else:
     print("Zero -> False")  # Zero -> False
+
+a = "Radek"
+# jezeli długosc tekstu jest wieksza niz 3 wypisac:
+# "Dlugośc wynosi: ..., więcej niż 3"
