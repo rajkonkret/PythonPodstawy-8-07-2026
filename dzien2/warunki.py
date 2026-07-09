@@ -57,6 +57,8 @@ if n > 3:
 # Długość wynosi: 5, więcej niż 3
 
 # operator morsa, walrus operator
+# n = len(a)
+# if n > 3:
 if (n := len(a)) > 3:
     print(f"Długość wynosi: {n}, więcej niż 3")
     # Długość wynosi: 5, więcej niż 3
