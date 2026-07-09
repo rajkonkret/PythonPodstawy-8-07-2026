@@ -27,3 +27,9 @@ print(dictionary.items())
 # dict_keys(['imie', 'wiek'])
 # dict_values(['Radek', 51])
 # dict_items([('imie', 'Radek'), ('wiek', 51)])
+
+# nadpisanie
+dictionary['imie'] = "Tomek"
+print(dictionary)  # {'imie': 'Tomek', 'wiek': 51}
+
+
