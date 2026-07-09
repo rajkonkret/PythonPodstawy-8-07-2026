@@ -9,3 +9,7 @@ tupla_liczby = 43, 45, 22.34, 11, 200
 print(type(tupla_liczby))  # <class 'tuple'>
 print(tupla_liczby)  # (43, 45, 22.34, 11, 200)
 
+# tupla jednoelemntową
+tupla_jeden = (45,)  # pep8 zaleca nawias
+print(tupla_jeden)  # (45,)
+print(type(tupla_jeden))  # <class 'tuple'>
