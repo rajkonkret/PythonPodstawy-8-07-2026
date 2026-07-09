@@ -101,3 +101,8 @@ print(f"Rabat wynosi: {rabat}")  # Rabat wynosi: 25
 
 rabat = 25 if sum_zam > 100 else 0
 print(f"Rabat wynosi: {rabat}")  # Rabat wynosi: 25
+
+# napisac zadanie test z...
+# trzy patania
+# punktacja
+# strip(), casefold()
