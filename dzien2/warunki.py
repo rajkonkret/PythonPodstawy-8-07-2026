@@ -46,3 +46,12 @@ else:  # wartosc domyslna,
 a = "Radek"
 # jezeli długosc tekstu jest wieksza niz 3 wypisac:
 # "Dlugośc wynosi: ..., więcej niż 3"
+
+if len(a) > 3:
+    print(f"Długość wynosi: {len(a)}, więcej niż 3")
+# Długość wynosi: 5, więcej niż 3
+
+n = len(a)
+if n > 3:
+    print(f"Długość wynosi: {n}, więcej niż 3")
+# Długość wynosi: 5, więcej niż 3
