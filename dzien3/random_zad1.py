@@ -33,4 +33,5 @@ print(random.choices(lista_kul, k=6))  # [34, 17, 20, 2, 30, 2] z powtórzeniami
 
 print(random.sample(lista_kul, k=6))  # [30, 11, 24, 5, 4, 31], bez powtórzen
 print(sorted(random.sample(lista_kul, k=6)))  # [4, 13, 27, 33, 41, 46]
+print(sorted(random.sample(lista_kul, 6)))  # [4, 13, 27, 33, 41, 46]
 #
