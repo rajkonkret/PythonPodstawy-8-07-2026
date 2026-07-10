@@ -111,4 +111,25 @@ for i, o in enumerate(imiona):
 # 2 Tomek
 # 3 Anna
 
-imiona = ['Sylwia', 'Marek', 'Tomek', 'Anna']
+imiona = ['Sylwia', 'Marek', 'Tomek', 'Anna', "Kamila"]
+wiek = [23, 45, 34, 23]
+
+# Sylwia 23
+
+# zip() - łączy kolekcje
+for i in zip(imiona, wiek):
+    print(i)
+# ('Sylwia', 23)
+# ('Marek', 45)
+# ('Tomek', 34)
+# ('Anna', 23)
+
+for imie, w in zip(imiona, wiek):
+    print(imie, w)
+# Sylwia 23
+# Marek 45
+# Tomek 34
+# Anna 23
+
+# 0 Sylwia 23
+# zip_longest()
