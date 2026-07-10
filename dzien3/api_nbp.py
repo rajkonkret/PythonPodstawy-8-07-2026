@@ -21,7 +21,7 @@ print(response)  # <Response [200]>
 # 4xx - 404 brak strony, 400 Bad Request  - błedne dane
 # 5xx - 500 internal Server Error
 
-print(response.text) # str
+print(response.text)  # str
 
 dane = response.json()
 print(dane)
@@ -30,7 +30,7 @@ print(dane)
 # 'code': 'EUR',
 # 'rates': [{'no': '132/A/NBP/2026', 'effectiveDate': '2026-07-10', 'mid': 4.3465}]}
 #
-print(type(dane)) # <class 'dict'>
+print(type(dane))  # <class 'dict'>
 
 for k in dane:
     print(k)
@@ -40,3 +40,11 @@ for k in dane:
 # rates
 
 # waluta, kurs
+print("waluta:", dane['currency'])  # waluta: euro
+print(dane['rates'])
+# [
+# {'no': '132/A/NBP/2026', 'effectiveDate': '2026-07-10', 'mid': 4.3465}
+# ]
+print(dane['rates'][0])
+# {'no': '132/A/NBP/2026', 'effectiveDate': '2026-07-10', 'mid': 4.3465}
+print("Kurs:", dane['rates'][0]['mid'])  # Kurs: 4.3465
