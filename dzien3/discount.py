@@ -32,3 +32,16 @@ object_date = datetime.now().strptime("10/07/2026", "%d/%m/%Y")
 print(object_date)  # 2026-07-10 00:00:00
 print(type(object_date))  # <class 'datetime.datetime'>
 
+#  days=0, seconds=0, microseconds=0,
+#                 milliseconds=0, minutes=0, hours=0, weeks=0
+tomorrow = today + timedelta(days=1)
+print(tomorrow)  # 2026-07-11
+
+products = [
+    {'sku': 1, "exp_date": today, "price": 200},
+    {'sku': 2, "exp_date": today, "price": 100},
+    {'sku': 3, "exp_date": tomorrow, "price": 50},
+    {'sku': 4, "exp_date": today, "price": 200.00},
+    {'sku': 5, "exp_date": today, "price": 1200},
+    {'sku': 6, "exp_date": today, "price": 25.50},
+]
