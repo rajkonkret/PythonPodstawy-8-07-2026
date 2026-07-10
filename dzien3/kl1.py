@@ -39,3 +39,23 @@ print(cz1.plec)
 # m
 cz1.wypisz_imie()
 # Mam na imię: Radek
+
+cz2 = Human("Anna", 23)
+cz2.wypisz_imie()
+
+
+# Mam na imię: Anna
+
+# dziedziczenie
+class Student(Human):
+    """
+    Dziedziczy po klasie Human
+    """
+
+    def wypisz_oceny(self):
+        print("Moje oceny: 5, 5, 6")
+
+
+stud1 = Student("Tomek", 27, "m")
+stud1.wypisz_imie()  # Mam na imię: Tomek
+stud1.wypisz_oceny()  # Moje oceny: 5, 5, 6
