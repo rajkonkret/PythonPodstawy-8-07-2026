@@ -5,9 +5,16 @@
 import csv
 
 row = ['radek', 'coe', '3', 0]
+fields = ['name', 'branch', 'year', 'cgpa']
 
 filename = 'records.csv'
 
-with open(filename, "w") as csv_f:
+# newline="" - ominiecie problemu pustych linii
+with open(filename, "w", newline="") as csv_f:
     csv_writer = csv.writer(csv_f)
+    csv_writer.writerow(fields)
     csv_writer.writerow(row)
+
+dict_name = dict(zip(fields, row))
+print(dict_name)
+# {'name': 'radek', 'branch': 'coe', 'year': '3', 'cgpa': 0}
