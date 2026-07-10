@@ -79,3 +79,36 @@ for i in range(-10, 0):
 
 for i in range(10, 0, -2):  # (start, stop, krok)
     print(i)
+
+imiona = ['Sylwia', 'Marek', 'Tomek', 'Anna']
+
+for o in imiona:
+    print(o)
+# Sylwia
+# Marek
+# Tomek
+# Anna
+
+# 0 Sylwia
+
+print(imiona.index("Sylwia"))  # 0
+print(imiona[0])
+# 0
+# Sylwia
+
+# enumerate() - zwraca numer i element kolekcji
+for p in enumerate(imiona):
+    print(p)
+# (0, 'Sylwia') -> a, b
+# (1, 'Marek')
+# (2, 'Tomek')
+# (3, 'Anna')
+
+for i, o in enumerate(imiona):
+    print(i, o)
+# 0 Sylwia
+# 1 Marek
+# 2 Tomek
+# 3 Anna
+
+imiona = ['Sylwia', 'Marek', 'Tomek', 'Anna']
