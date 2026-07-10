@@ -38,7 +38,7 @@ try:
 
     select = "SELECT * FROM developers"
     for row in c.execute(select):
-        print(row) # (2, 'Radek', 12000.0)
+        print(row)  # (2, 'Radek', 12000.0)
 
 except sqlite3.Error as e:
     print("Bład:", e)
