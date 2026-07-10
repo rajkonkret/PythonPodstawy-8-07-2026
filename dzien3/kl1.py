@@ -55,7 +55,16 @@ class Student(Human):
     def wypisz_oceny(self):
         print("Moje oceny: 5, 5, 6")
 
+    def wypisz_imie(self):
+        print(f"Imię studenta: {self.imie}")
+
 
 stud1 = Student("Tomek", 27, "m")
 stud1.wypisz_imie()  # Mam na imię: Tomek
 stud1.wypisz_oceny()  # Moje oceny: 5, 5, 6
+
+stud2 = Student("Magda", 34)
+stud2.wypisz_imie()
+stud2.wypisz_oceny()
+# Imię studenta: Magda
+# Moje oceny: 5, 5, 6
