@@ -28,3 +28,4 @@ with open('test.log', "r", encoding='utf-8') as fh:
     lines = fh.read()
 
 print(lines)
+# chardet
