@@ -1,9 +1,10 @@
 import tkinter
+from tkinter import filedialog
 
 
 class MyGui:
     """
-    Okienko z przyciskiem zmieniajacym tekst.
+    Okienko z przyciskiem otwierajacym okno wyboru pliku.
     """
 
     def __init__(self):
@@ -15,13 +16,13 @@ class MyGui:
         self.bottom_frame = tkinter.Frame(self.main_window)
 
         self.message = tkinter.StringVar()
-        self.message.set("Witaj Swiecie")
+        self.message.set("Nie wybrano pliku")
 
         self.label = tkinter.Label(self.top_frame, textvariable=self.message)
         self.show_button = tkinter.Button(
             self.bottom_frame,
-            text="Zmien tekst",
-            command=self.change_text
+            text="Wybierz plik",
+            command=self.select_file
         )
         self.quit_button = tkinter.Button(
             self.bottom_frame,
@@ -38,8 +39,15 @@ class MyGui:
 
         tkinter.mainloop()
 
-    def change_text(self):
-        self.message.set("Przycisk zostal klikniety")
+    def select_file(self):
+        file_path = filedialog.askopenfilename(
+            title="Wybierz plik"
+        )
+
+        if file_path:
+            self.message.set(file_path)
+        else:
+            self.message.set("Nie wybrano pliku")
 
 
 my_gui = MyGui()
