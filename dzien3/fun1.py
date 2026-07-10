@@ -61,3 +61,24 @@ print(wyn)  # -85
 odejmi4 = lambda a, b, c=0: a - b - c
 wyn = odejmi4(4, 9)
 print(wyn)  # -5
+
+# mapowanie danych
+lista = [6, 9, 10]
+
+l1 = []
+for i in lista:
+    l1.append(i * 1.1)
+print(l1)  # [6.6000000000000005, 9.9, 11.0]
+
+print([i * 1.1 for i in lista])  # [6.6000000000000005, 9.9, 11.0]
+
+# map(), filter(), reduce()
+#  funkcje wyzszego rzedu - wymagaja funkcji jako argumentu
+# lambda jako funkcja anonimowa
+print(f"Użycie map(): {list(map(lambda x: x * 1.1, lista))}")
+# Użycie map(): [6.6000000000000005, 9.9, 11.0]
+print(f"Użycie map(): {list(map(lambda x: x * 1.25, lista))}")
+# Użycie map(): [7.5, 11.25, 12.5]
+
+print(f"Użycie filter(): {list(filter(lambda x: x > 5, lista))}")
+# Użycie filter(): [6, 9, 10]
