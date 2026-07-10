@@ -22,3 +22,13 @@ print(type(formated_date))  # <class 'str'>
 # %M: Minuty z zerem wiodącym, np. "00" do "59".
 # %S: Sekundy z zerem wiodącym, np. "00" do "59".
 # %f: Mikrosekundy, np. "000000" do "999999".
+
+formated_time = datetime.now().strftime("%I:%M %p")
+print(formated_time)  # 10:29 AM
+print(type(formated_time))
+
+# zamiana obiekt
+object_date = datetime.now().strptime("10/07/2026", "%d/%m/%Y")
+print(object_date)  # 2026-07-10 00:00:00
+print(type(object_date))  # <class 'datetime.datetime'>
+
