@@ -53,3 +53,11 @@ def odejmij(a=0, b=0, c=0):
 print(odejmij(4, 5, 6))  # -7
 wyn = odejmij(5, 90)
 print(wyn)  # -85
+
+# funkcje lambda
+# skrócony zapis funkcje
+# zwraca wynik
+
+odejmi4 = lambda a, b, c=0: a - b - c
+wyn = odejmi4(4, 9)
+print(wyn)  # -5
