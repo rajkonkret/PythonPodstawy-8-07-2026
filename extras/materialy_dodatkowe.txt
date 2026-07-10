@@ -123,3 +123,6 @@ https://www.w3schools.com/python/python_variables.asp
 
 https://kariera.comarch.pl/blog/clean-code-15-krokow-do-stworzenia-czystego-kodu/
 https://fiszki-python.cytr.us/
+
+pip freeze > requirements.txt
+pip install -r .\requirements.txt
