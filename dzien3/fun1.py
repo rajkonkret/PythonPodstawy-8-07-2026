@@ -33,3 +33,23 @@ dodaj3(45, 78, 100)  # 223
 # argumenty po nazwie
 dodaj3(c=100, b=90, a=9)
 dodaj3(b=90, a=9)
+
+# mieszane
+dodaj3(1, b=34, c=89)
+dodaj3(1, 34, c=89)
+
+# dodaj3(a=90, 3, 4)  # SyntaxError: positional argument follows keyword argument
+
+print(50 * "-")
+wyn = dodaj3(1, 2, 3)
+print(wyn)  # None
+
+
+# funkcje zwracające wynik
+def odejmij(a=0, b=0, c=0):
+    return a - b - c  # zwraca wynik
+
+
+print(odejmij(4, 5, 6))  # -7
+wyn = odejmij(5, 90)
+print(wyn)  # -85
