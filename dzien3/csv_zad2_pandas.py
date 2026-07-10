@@ -7,6 +7,7 @@ print(data)
 #     name branch  year  cgpa
 # 0  radek    coe     3     0
 
+# csv.Sniff() - wykrywanie delimitera
 data = pandas.read_csv('records_discount.csv', delimiter=";")
 print(data)
 #     name branch  year  cgpa
