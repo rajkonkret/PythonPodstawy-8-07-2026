@@ -18,3 +18,26 @@ with open(filename, "w", newline="") as csv_f:
 dict_name = dict(zip(fields, row))
 print(dict_name)
 # {'name': 'radek', 'branch': 'coe', 'year': '3', 'cgpa': 0}
+
+filename = "records_dict.csv"
+with open(filename, "w", newline="") as csv_f:
+    csv_writer = csv.DictWriter(csv_f, fieldnames=fields)
+    csv_writer.writeheader()
+    csv_writer.writerow(dict_name)
+
+products = [
+    {'sku': 1, "exp_date": 'today', "price": 200},
+    {'sku': 2, "exp_date": 'today', "price": 100},
+    {'sku': 3, "exp_date": 'tomorrow', "price": 50},
+    {'sku': 4, "exp_date": 'today', "price": 200.00},
+    {'sku': 5, "exp_date": 'today', "price": 1200},
+    {'sku': 6, "exp_date": 'today', "price": 25.50},
+]
+
+filename = "records_discount.csv"
+list_product = [key for key in products[0]]
+
+with open(filename, "w", newline="") as csv_f:
+    csv_writer = csv.DictWriter(csv_f, fieldnames=list_product, delimiter=";")
+    csv_writer.writeheader()
+    csv_writer.writerows(products)  # writerows oczekuje listy
