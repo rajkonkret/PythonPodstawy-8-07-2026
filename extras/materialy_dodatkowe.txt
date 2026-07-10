@@ -126,3 +126,7 @@ https://fiszki-python.cytr.us/
 
 pip freeze > requirements.txt
 pip install -r .\requirements.txt
+
+budowanie exe
+pip install pyinstaller
+pyinstaller --onefile --noconsole .\okno1.py
