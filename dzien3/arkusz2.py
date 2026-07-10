@@ -24,5 +24,17 @@ print(dane_filter)
 #   Sales Date Sales Person  Amount
 # 0 2018-05-12   Sila Ahmed   60000
 
+data.info()
+# <class 'pandas.DataFrame'>
+# RangeIndex: 4 entries, 0 to 3
+# Data columns (total 3 columns):
+#  #   Column        Non-Null Count  Dtype
+# ---  ------        --------------  -----
+#  0   Sales Date    4 non-null      datetime64[us]
+#  1   Sales Person  4 non-null      str
+#  2   Amount        4 non-null      int64
+# dtypes: datetime64[us](1), int64(1), str(1)
+# memory usage: 228.0 bytes
+
 # zapisac do excela
 dane_filter.to_excel('dane.xlsx', index=False)
