@@ -37,3 +37,5 @@ print(cz1.plec)
 # Radek
 # 69
 # m
+cz1.wypisz_imie()
+# Mam na imię: Radek
