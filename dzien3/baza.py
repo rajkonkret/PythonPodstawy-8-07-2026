@@ -16,3 +16,5 @@ finally:
     if conn:
         conn.close()
         print("Połaczenie zostało zamknięte")
+# Baza danych zostala podłaczona
+# Połaczenie zostało zamknięte
